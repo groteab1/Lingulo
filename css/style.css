@@ -1,6 +1,3 @@
-/* This CSS file is part of the HTML5 / CSS3 tutorial on http://www.lingulo.com */
-
-/* GLOBAL */
 body
 {
         border-top:5px solid #e56038;
@@ -73,9 +70,6 @@ hr
         height:1px;
         margin:20px 0;
 }
-
-
-/* HEADER */
 
 header
 {
@@ -158,7 +152,6 @@ nav ul li a:hover
         display: none;
 }
 
-/* 3 COLUMNS */
 
 #boxcontent
 {
@@ -235,7 +228,6 @@ nav ul li a:hover
 }
 
 
-/* BUTTONS */
 
 .button
 {
@@ -260,7 +252,6 @@ nav ul li a:hover
 }
 
 
-/* SPACER */
 
 #spacer
 {
@@ -292,7 +283,6 @@ nav ul li a:hover
 }
 
 
-/* FOUR COLUMNS */
 
 #four_columns, #text_columns
 {
@@ -344,7 +334,6 @@ nav ul li a:hover
 }
 
 
-/* TWO COLUMNS */
 
 #text_columns article.column1, #text_columns .column2
 {
@@ -412,7 +401,6 @@ nav ul li a:hover
 
 
 
-/* FOOTER */
 
 footer
 {
@@ -557,8 +545,6 @@ footer .wrapper .column h4
 }
 
 
-/* SLIDESHOW */
-/* Prevent the slideshow from flashing on load */
 .slidesjs-container
 {
         border-top: 1px #d6d0c1 solid;
@@ -568,7 +554,6 @@ footer .wrapper .column h4
         display: none
 }
 
-/* Center the slideshow */
 .container
 {
         width:auto;
@@ -576,7 +561,6 @@ footer .wrapper .column h4
         position:relative;
 }
 
-/* Show active item in the pagination */
 .slidesjs-pagination .active
 {
         color:red;
@@ -589,7 +573,6 @@ footer .wrapper .column h4
 }
 
 
-/* MISC */
 .clear
 {
         clear:both;
@@ -602,7 +585,6 @@ footer .wrapper .column h4
 }
 
 
-/* MEDIA QUERIES FOR A RESPONSIVE LAYOUT */
 
 @media (max-width: 1215px)
 {
@@ -869,7 +851,6 @@ footer .wrapper .column h4
         }
 }
 
-/* KEYFRAMES */
 
 @keyframes stylie-transform-keyframes {
   0% {transform:translateX(30px) translateY(46px) rotate(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
